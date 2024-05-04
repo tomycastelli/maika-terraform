@@ -1,8 +1,7 @@
 # Maika Terraform
-Repositorio con la infrastructura desplegada actualmente en AWS para el proyecto [sistema-maika](https://github.com/tomycastelli/sistema-maika)
+IaC (Infrastructure as Code) for the [sistema-maika](https://github.com/tomycastelli/sistema-maika) project, which is a NextJS website using various AWS services for different features
 
-## Infrastructura en uso
-Actualmente estoy usando los siguientes servicios:
+## Services
 - EC2
 - RDS
 - S3
