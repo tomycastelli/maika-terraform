@@ -1,0 +1,6 @@
+.terraform/
+.DS_Store
+pdfFunction/
+ssh/
+output.json
+tfplan.out

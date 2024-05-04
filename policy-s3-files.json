@@ -1,0 +1,18 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AllowFileAccess",
+			"Effect": "Allow",
+			"Action": ["s3:GetObject", "s3:PutObject", "s3:ListBucket"],
+			"Resource": [
+				"arn:aws:s3:::maika-reportes",
+				"arn:aws:s3:::maika-reportes/*",
+				"arn:aws:s3:::maika-assets",
+				"arn:aws:s3:::maika-assets/*",
+        "arn:aws:s3:::maikadb-backups",
+        "arn:aws:s3:::maikadb-backups/*"
+			]
+		}
+	]
+}

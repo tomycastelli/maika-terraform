@@ -1,0 +1,42 @@
+{
+  "access_key_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "AKIAU2PRUAK4TQYMD37P"
+  },
+  "api_key_lambda": {
+    "sensitive": true,
+    "type": "string",
+    "value": "f72RpHZS9B5TFZ1WkVcYB2XvlocVxIfjaYPFDnc0"
+  },
+  "db_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sistema-maika-postgresql.cqzuxnrn4wn1.sa-east-1.rds.amazonaws.com:5432"
+  },
+  "db_password": {
+    "sensitive": true,
+    "type": "string",
+    "value": "OXNQC3XY2m55rMNX"
+  },
+  "ecs_web-app_revision": {
+    "sensitive": false,
+    "type": "number",
+    "value": 22
+  },
+  "elb_dns_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sistema-maika-lb-1298184569.sa-east-1.elb.amazonaws.com"
+  },
+  "pdfGeneratorURL": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://yb5txblha1.execute-api.sa-east-1.amazonaws.com/dev"
+  },
+  "secret_access_key": {
+    "sensitive": true,
+    "type": "string",
+    "value": "h7Ac3F57L9dk35NIbnzW+R4QHzPZZgcEIApnkOG4"
+  }
+}

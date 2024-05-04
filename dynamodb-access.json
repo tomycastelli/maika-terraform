@@ -1,0 +1,20 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": ["dynamodb:GetItem", "dynamodb:BatchGetItem", "dynamodb:Query", "dynamodb:Scan"],
+			"Resource": "arn:aws:dynamodb:sa-east-1:331756077753:table/sistema-maika"
+		},
+		{
+			"Effect": "Allow",
+			"Action": ["dynamodb:PutItem", "dynamodb:UpdateItem", "dynamodb:BatchWriteItem"],
+			"Resource": "arn:aws:dynamodb:sa-east-1:331756077753:table/sistema-maika"
+		},
+		{
+			"Effect": "Allow",
+			"Action": ["dynamodb:DeleteItem"],
+			"Resource": "arn:aws:dynamodb:sa-east-1:331756077753:table/sistema-maika"
+		}
+	]
+}
