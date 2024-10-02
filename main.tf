@@ -74,7 +74,7 @@ resource "aws_instance" "t3a_medium" {
   associate_public_ip_address = false
   vpc_security_group_ids = [aws_security_group.proxy_manager.id, aws_security_group.internal_communication.id, aws_security_group.ssh_access.id]
   root_block_device {
-    volume_size = 22
+    volume_size = 30
     volume_type = "gp3"
   }
 

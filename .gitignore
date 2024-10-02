@@ -4,3 +4,5 @@ pdfFunction/
 ssh/
 output.json
 tfplan.out
+terraform.tfstate
+terraform.tfstate.output
